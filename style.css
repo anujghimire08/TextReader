@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 21px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#FFA30C;
+}
+h1{
+  color: black;
+  text-align: center;
+}
+button{
+  border: none;
+  border-radius: 0.1rem;
+  padding: 7px;
+  cursor: pointer;
+  color: #FFA30C;
+  background-color: black;
+  box-shadow: 0px 0px 5px 0.5px;
+}
+button:hover{
+  background-color: rgba(0, 0, 0, 0.918);}
+
+input{
+  padding: 9px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 0.1rem;
+  outline: none;
+   box-shadow: 0px 0px 2px 0.1px;
+}
+input::placeholder{
+  color: grey;
+  font-size: 18px;
+  font-family: italic;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar{
+  background-color: black;
+  height: auto;
+  display: flex;
+  justify-content:space-between;
+  margin-bottom: 100px;
+}
+
+.navbar  img{
+  width: 100px;
+  padding-left:5px;
+}
+
+.navlink{
+  display: flex;
+}
+
+.navlink p{
+  cursor: pointer;
+  color:#FFA30C ;
+  margin-right: 20px;
+}
+.navlink p:hover{
+  text-decoration: underline;
+}
+.footer{
+  position: fixed;   
+  bottom: 0;
+  width: 100%;       
+  background-color: black;
+  color: #FFA30C;
+  text-align: center;
+  padding: 4px;
+
+}
+.footer p{
+    color: #FFA30C;
+  }
+.anuj{
+  margin-top: -15px;
+    color:#FFA30C;
+    font-size: small;
+    font-family: italic;
+  }
